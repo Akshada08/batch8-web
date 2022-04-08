@@ -1,0 +1,173 @@
+
+
+head{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a:link, a:visited{
+    color: rosybrown;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: orange
+}
+
+.__next{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.navbar{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+.main-banner{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    
+}
+.banner-form{
+    position: relative;
+    margin-top: 30px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: 0;
+}
+
+.banner-form button{
+    position: absolute;
+    right: 4px;
+    top:4px;
+    }
+
+
+.section-title{
+    max-width: 600px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.social li{display: inline;}
+
+.section-title span{color: orange;}
+
+.single-team-box span{
+    color: red;
+}
+.single-team-box image{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.content{
+    text-align: center;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.copyright li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.industries-area{
+    background-color: #ffd7ca;
+}
+
+.single-industries-box{
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 1;
+    border-radius: 0 50px 0 50px;
+    background-color: #f7f9fc;
+    overflow: hidden;
+    padding: 35px 48px 35px 25px;
+}
+
+.single-industries-box i{
+    right: 10px;
+    top: 50%;
+    color: #ffa6b3;
+    font-size: 50px;
+    position: absolute;
+    line-height: normal;
+}
+
+.page-banner-content h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    
+
+}
+.page-banner-content ul li{
+
+ list-style-type: none;
+ display: inline-block;
+ margin: 5px;
+
+}
+.page-banner-area{
+    position: relative;
+    display: inline-block;
+}
+.page-banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    font-weight: bold;
+    color:#eee
+}
+.icon i{
+    color: skyblue;
+}
